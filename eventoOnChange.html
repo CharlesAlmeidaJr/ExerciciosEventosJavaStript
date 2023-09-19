@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onChange</title>
+    <script type="text/javascript">
+        function myFunction(){
+            var x = document.getElementById('fname')
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body>
+    Insira seu nome: <input type="text" id="fname" onchange="myFunction()">
+    <p>Ao clicarmos fora do input p texto escrito nele ficará todo em caixa alta</p>
+</body>
+</html>
